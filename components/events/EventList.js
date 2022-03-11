@@ -13,7 +13,7 @@ export default function EventList(props) {
             title: featuredEvent.title,
             location: featuredEvent.location,
             date: featuredEvent.date,
-            image: featuredEvent.image,
+            image: `/${featuredEvent.image}`,
           }}
         />
       ))}
